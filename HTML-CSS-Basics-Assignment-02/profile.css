@@ -1,0 +1,188 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #FDE8D3;
+    color: #3f463f;
+    line-height: 1.6;
+}
+
+.site-header {
+    background-color: #657166;
+    color: #ffffff;
+    text-align: center;
+    padding: 3vh 5%;         /* vh + % units */
+    position: relative;      /* POSITIONING requirement */
+}
+
+.site-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.site-header .tagline {
+    position: absolute;
+    bottom: 8px;
+    right: 5%;
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #DAEBE3;
+}
+
+.site-nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #99CDD8;
+    padding: 12px 0;
+}
+
+.site-nav a {
+    color: #33403f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 6px 14px;
+    border-radius: 4px;
+}
+
+.site-nav a:hover {
+    background-color: #7cb8c4;
+}
+
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 5%;
+}
+
+/* ----------- ABOUT SECTION ----------- */
+.about-section {
+    display: flex;             /* Flexbox layout for image + text */
+    align-items: center;
+    gap: 25px;
+    background-color: #ffffff;
+    border: 1px solid #CFD6C4;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 2rem;
+    box-shadow: 0 6px 18px rgba(101, 113, 102, 0.12);
+}
+
+.profile-photo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;        
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.about-text h2 {
+    margin-top: 0;
+    color: #657166;
+}
+
+
+
+.skills-section {
+    background-color: #ffffff;
+    border: 1px solid #CFD6C4;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 2rem;
+    text-align: center;
+    box-shadow: 0 6px 18px rgba(101, 113, 102, 0.12);
+}
+
+.skills-section h2 {
+    color: #657166;
+}
+
+.skills-list {
+    list-style: none;
+    display: flex;              /* Flexbox: primary layout method */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 0;
+    margin: 1rem 0 0 0;
+}
+
+.skills-list li {
+    background-color: #F3C3B2;
+    color: #4a2e26;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 0.95rem;
+    font-weight: bold;
+}
+
+.skills-list li:nth-child(even) {
+    background-color: #99CDD8;
+    color: #1f3a40;
+}
+
+/* ----------- ARTICLE ----------- */
+.journey-article {
+    background-color: #DAEBE3;
+    border-left: 5px solid #99CDD8;
+    border-radius: 6px;
+    padding: 20px 25px;
+    margin-bottom: 2rem;
+}
+
+.journey-article h2 {
+    color: #3f5a52;
+    margin-top: 0;
+}
+
+/* ----------- ASIDE ----------- */
+.profile-aside {
+    background-color: #FDE8D3;
+    border: 1px dashed #657166;
+    border-radius: 8px;
+    padding: 20px 25px;
+    margin-bottom: 2rem;
+}
+
+.profile-aside h2 {
+    color: #657166;
+    margin-top: 0;
+    font-size: 1.3rem;
+}
+
+.profile-aside ul {
+    padding-left: 20px;
+}
+
+.profile-aside strong {
+    color: #c9704f;
+}
+
+
+#contact {
+    background-color: #657166;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px 5%;
+}
+
+#contact p {
+    margin: 4px 0;
+}
+
+#contact a {
+    color: #99CDD8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+    color: #F3C3B2;
+}

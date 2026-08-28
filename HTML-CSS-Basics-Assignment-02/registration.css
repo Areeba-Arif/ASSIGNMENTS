@@ -1,0 +1,116 @@
+
+body {
+    background-color: #f5f7fa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 5vh 0;
+}
+
+.form-container {
+    width: 60%;
+    margin: auto;
+    padding: 30px;
+
+    background-color: white;
+    border: 2px solid #2f4156;
+}
+
+h1 {
+    color: #2f4156;
+    font-size: 2rem;
+    text-align: center;
+}
+
+form {
+    width: 90%;
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+label {
+    color: #333333;
+    font-size: 1rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Text, email, password and date inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #999999;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+/* Gender options - Flexbox */
+.gender-options {
+    display: flex;
+    gap: 20px;
+}
+
+/* Programming language options - Flexbox */
+.language-options {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Prevent these labels from taking full width */
+.gender-options label,
+.language-options label {
+    display: inline-block;
+    font-weight: normal;
+}
+
+/* Radio buttons and checkboxes */
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+}
+
+/* Buttons - Flexbox */
+.buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.buttons input {
+    padding: 10px 25px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.buttons input[type="submit"] {
+    background-color: #2f4156;
+    color: white;
+}
+
+
+.buttons input[type="reset"] {
+    background-color: #d1495b;
+    color: white;
+}
+
+.buttons input:hover {
+    opacity: 0.9;
+}
+
+
+.form-container {
+    position: relative;
+}
